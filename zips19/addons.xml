@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.fanfilm" name="FanFilm" version="2021.05.25.4" provider-name="-">
+<addon id="plugin.video.fanfilm" name="FanFilm" version="2021.05.25.5" provider-name="FanFilm Fork">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.ptw" version="2021.03.20.0"/>
+        <import addon="script.module.ptw" version="2021.04.14.0"/>
         <import addon="script.module.requests"/>
         <import addon="script.module.metahandler" version="5.0.0"/>
         <import addon="script.module.beautifulsoup4"/>
@@ -18,7 +19,7 @@
     <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
         <summary lang="pl">FanFilm</summary>
-        <description lang="pl">Plugin z filmami i serialami.</description>
+        <description lang="pl">FanFilm</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
@@ -26,7 +27,7 @@
     </extension>
     <reuselanguageinvoker>true</reuselanguageinvoker>
 </addon>
-<addon id="script.module.ptw" name="PTW Module" version="2021.04.14.0" provider-name="PTW">
+    <addon id="script.module.ptw" name="PTW Module" version="2021.04.14.0" provider-name="PTW">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.beautifulsoup4"/>
