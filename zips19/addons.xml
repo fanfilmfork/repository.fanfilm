@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.fanfilm" name="FanFilm" version="2021.06.16.0" provider-name="FanFilm Fork">
+<addon id="plugin.video.fanfilm" name="FanFilm" version="2021.06.18.0" provider-name="FanFilm Fork">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.ptw" version="2021.04.14.0"/>
